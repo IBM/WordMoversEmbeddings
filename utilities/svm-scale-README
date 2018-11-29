@@ -1,0 +1,35 @@
+`svm-scale' Usage
+=================
+
+Usage: svm-scale [options] data_filename
+options:
+-l lower : x scaling lower limit (default -1)
+-u upper : x scaling upper limit (default +1)
+-y y_lower y_upper : y scaling limits (default: no y scaling)
+-s save_filename : save scaling parameters to save_filename
+-r restore_filename : restore scaling parameters from restore_filename
+
+See 'Examples' in this file for examples.
+
+Tips on Practical Use
+=====================
+
+* Scale your data. For example, scale each attribute to [0,1] or [-1,+1].
+* For C-SVC, consider using the model selection tool in the tools directory.
+* nu in nu-SVC/one-class-SVM/nu-SVR approximates the fraction of training
+errors and support vectors.
+* If data for classification are unbalanced (e.g. many positive and
+few negative), try different penalty parameters C by -wi (see
+examples below).
+* Specify larger cache size (i.e., larger -m) for huge problems.
+
+Examples
+========
+
+svm-scale -l -1 -u 1 -s range train > train.scale
+svm-scale -r range test > test.scale
+
+Scale each feature of the training data to be in [-1,1]. Scaling
+factors are stored in the file range and then used for scaling the
+test data.
+

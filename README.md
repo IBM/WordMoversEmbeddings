@@ -12,9 +12,9 @@ conda create -n yourenvname python=2.7 anaconda
 
 You will also need to download one of most popular pre-trained embeddings such as Word2Vec or GloVe. You can download them from this link:
 
-For Word2Vec: https://drive.google.com/open?id=1RfimQWYm3C3KQNUQJ0EnUdz0xqWsoP8Q
-For GloVe: https://drive.google.com/open?id=1Ul__vKCUXFANr4M79_QU1HpPgvSLlqlx
-For PSL: https://drive.google.com/open?id=1Kgoksc27NffaDO9-uGzuEASL4ybLpYgu 
+For Word2Vec: https://drive.google.com/open?id=1RfimQWYm3C3KQNUQJ0EnUdz0xqWsoP8Q <br/>
+For GloVe: https://drive.google.com/open?id=1Ul__vKCUXFANr4M79_QU1HpPgvSLlqlx <br/>
+For PSL: https://drive.google.com/open?id=1Kgoksc27NffaDO9-uGzuEASL4ybLpYgu <br/>
 
 
 # How To Run The Codes

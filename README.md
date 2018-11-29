@@ -10,7 +10,7 @@ The preprocessing code needs python 2.7 with several packages. If you use Anacon
 
 conda create -n yourenvname python=2.7 anaconda
 
-You will also need to download one of most popular pre-trained embeddings such as Word2Vec or GloVe. You can download them from this link:
+You will also need to download one of most popular pre-trained embeddings such as Word2Vec or GloVe. You can download them from these links:
 
 For Word2Vec: https://drive.google.com/open?id=1RfimQWYm3C3KQNUQJ0EnUdz0xqWsoP8Q <br/>
 For GloVe: https://drive.google.com/open?id=1Ul__vKCUXFANr4M79_QU1HpPgvSLlqlx <br/>

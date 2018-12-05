@@ -53,7 +53,7 @@ To generate the WME for your NLP applications, you need:
 (5) Test the model by running the following code wme_VaryingR_allSplits_CV_R256.m using best parameters from CV
     The testing result on different data splits will be saved. 
 
-(6) To generate WME embedding only, please run this code wme_Genfea_example.m (Note that there are no default numbers for the hyperparameters DMax, gamma. You should searching for the best numbers before generating text embeddings for your applications). 
+(6) To generate WME embedding only, please run this code wme_Genfea_example.m Note that there are no default numbers for the hyperparameters DMax, gamma. You should searching for the best numbers before generating text embeddings for your applications. In general, the larger the parameter R is, the better quality of embedding is. 
 
 
 

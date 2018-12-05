@@ -18,6 +18,8 @@ For PSL: https://drive.google.com/open?id=1Kgoksc27NffaDO9-uGzuEASL4ybLpYgu <br/
 
 
 # How To Run The Codes
+Note that, to get the good performance for your applications, the hyperparameters DMax, gamma, and even lambda_inverse (for text classification using SVM) have to be searched (using cross validation or other techniques) in order to find the best number of these hyperparameters. This is a crucial step for supervised machine learning tasks.  
+
 To generate the WME for your NLP applications, you need:
 
 (1) Prepare raw text data to its corresonding Matlab data format:
@@ -51,7 +53,7 @@ To generate the WME for your NLP applications, you need:
 (5) Test the model by running the following code wme_VaryingR_allSplits_CV_R256.m using best parameters from CV
     The testing result on different data splits will be saved. 
 
-(6) To generate WME embedding only, please run this code wme_Genfea_example.m
+(6) To generate WME embedding only, please run this code wme_Genfea_example.m (Note that there are no default numbers for the hyperparameters DMax, gamma. You should searching for the best numbers before generating text embeddings for your applications). 
 
 
 
